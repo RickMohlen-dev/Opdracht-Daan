@@ -1,13 +1,33 @@
 /* Desktop */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap');
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: #121212;
+    color:white;
 }
+.titel {
+    text-align: center;
+    color: greenyellow;
+    text-shadow: 0 0 10px #00ff00;
+    font size: 60px;
+    margin-top: 75px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    }
 
+.subtitel {
+    text-align: center;
+    color: red;
+    font size: 60px;
+    margin-top: 75px;    
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+}
 /* Navigatiemenu */
 .navbar {
     background-color: #10111c;
@@ -23,7 +43,6 @@ body {
     align-items: center;
     flex-wrap: wrap;
     gap: 15px 30px;
-
     list-style: none;
     margin: 0;
     padding: 0;
@@ -37,6 +56,8 @@ body {
     border: 1px solid #353851;
     color: white;
     text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
 }
 
 .navbar a:hover {
