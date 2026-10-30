@@ -67,6 +67,20 @@ body {
     border: 4px solid #eef1ee;
     box-shadow: 0 0 20px #15ff00;
 }
+
+.home2-tekst {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.home2-titel {
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif; 
+    font-width: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
 /* Navigatiemenu */
 .navbar {
     background-color: #10111c;
@@ -107,6 +121,43 @@ body {
     background: linear-gradient(135deg, #7928ff, #287bff);
     box-shadow: 0 0 20px rgba(105, 70, 255, 0.45);
     transform: translate( -3px);
+}
+
+.footer {
+    background-color: #10111c;
+    padding: 10px 40px;
+    margin-top: 30px;
+    border-top: 1px solid #292b40;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer h3 {
+    margin: 0 0 5px 0;
+}
+
+.footer a {
+    display: block;
+    padding: 3px 8px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.footer a,
+.footer p {
+    color: white;
+    text-decoration: none;
+    margin: 0 0 3px 0;
+}
+
+.footer a:hover {
+    color: white;
+    background: linear-gradient(135deg, #7928ff, #287bff);
+    box-shadow: 0 0 20px rgba(105, 70, 255, 0.45);
 }
 
 /* Telefoons */
